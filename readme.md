@@ -1,6 +1,3 @@
-echo "# web-development-project" >> README.md
-
-
 <!DOCTYPE html>
 <html>
 <body>
