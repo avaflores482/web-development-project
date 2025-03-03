@@ -1,0 +1,119 @@
+/* styling the nav bar*/
+
+nav {
+    background-color: #FFB7C0;
+    padding: 10px 0px;
+    text-align: center;
+    border: 2px solid #392911
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0px 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.topnav a:hover {
+    background-color: #7f7361;
+}
+
+.topnav a.active {
+    background-color: #392911;
+}
+
+/*styling the background and font*/
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-image: url("https://imgur.com/K4Z5lQU.jpg");
+}
+
+/*styling conatienrs on pages*/
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    background: #ffffff;
+    padding: 40px 24px;
+    border-radius: 15px;
+    border: 6px solid #FFB7C0;
+    text-align: center;
+}
+
+/*home page styling*/
+
+p {
+    color: #392911;
+    font-size: 16px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 4px 8px;
+    color: #ffffff;
+    background-color: #392911;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*about cookies page styling*/
+
+ul li {
+    color:#392911
+}
+
+p { 
+    color:#392911;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    
+}
+
+table, th, td {
+    border: 2px solid #FFB7C0;
+    
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+    color: #392911;
+}
+
+th {
+    background-color: #FFDCDD;
+}
+
+/*effects of cookies styling*/
+
+p {
+    color:#392911;
+    font-size: 16px
+}
+
+/*reference page styling*/
+
+p {
+    font-size: 16px;
+    color:#392911;
+}
