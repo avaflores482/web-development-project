@@ -17,7 +17,7 @@ nav {
     background-color: #ffb7c0;
     padding: 15px 0;
     text-align: center;
-    border: 2px solid #4e412c;
+    border: 2px solid #605545;
 }
   
 
@@ -50,7 +50,7 @@ nav a:hover {
 }
 
 nav a.active {
-    background-color: #4e412c;
+    background-color: #392911;
 }
 
 /*styling the background and font*/
@@ -83,7 +83,7 @@ p {
     margin-top: 16px;
     padding: 4px 8px;
     color: #ffffff;
-    background-color: #4e412c;
+    background-color: #392911;
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
