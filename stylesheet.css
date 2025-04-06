@@ -1,24 +1,29 @@
 /* styling the nav bar*/
 
 #topnav {
-    background-color: #FFB7C0;
-    border: 2px solid #392911
+    display: inline;
+}
+
+#topnav * {
+    display: inherit;
 }
 
 #topnav ul {
     list-style: none;
-    padding: 0px;
     margin: 0;
+    background-color: ffb7c0;
+    padding: 1.5%;
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-#topnav ul li {
-    margin: 0px 20px;
+#topnav li {
+    margin: 0;
+    padding: 0 2.5%;
 }
 
-#topnav ul li a {
+#topnav a {
     color: #ffffff;
     text-decoration: none;
     padding: 4px 8px;
@@ -27,11 +32,11 @@
     display: inline-block;
 }
 
-.topnav a:hover {
+#topnav a:hover {
     background-color: #7f7361;
 }
 
-.topnav a.active {
+#topnav a.active {
     background-color: #392911;
 }
 
