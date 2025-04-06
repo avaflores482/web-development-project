@@ -2,9 +2,10 @@
 
 nav {
     background-color: #ffb7c0;
-    border: 2px solid #392911;
+    margin: 0;
     padding: 15px 0;
     text-align: center;
+    border: 2px solid #392911;
 }
   
 
