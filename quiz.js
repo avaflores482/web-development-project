@@ -86,7 +86,7 @@ function generateQuiz(questions, quizcontainer, resultscontainer, submitbutton){
                 //add to the number of correct answers
                 numcorrect++;
                 //color answers green
-                answercontainers[i].style.color = 'lightgreen';
+                answercontainers[i].style.color = 'darkgreen';
 
             }
 
