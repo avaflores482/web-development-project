@@ -6,11 +6,11 @@
 #topnav ul {
     list-style: none;
     margin: 0;
-    padding: 1.5%;
+    padding: 4px;
     background-color: #ffb7c0;
     display: flex;
     justify-content: center;
-    width: 100%;
+  
 }
 
 #topnav li {
