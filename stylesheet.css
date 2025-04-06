@@ -1,24 +1,28 @@
 /* styling the nav bar*/
 
-
+nav {
+    background-color: #ffb7c0;
+    border: 2px #392911;
+    padding: 10px 0;
+    text-align: center;
+}
   
 
-#topnav ul {
+nav ul {
     list-style: none;
     margin: 0;
-    padding: 4px;
-    background-color: #ffb7c0;
+    padding: 0;
     display: flex;
     justify-content: center;
   
 }
 
-#topnav li {
+nav li {
     margin: 0;
     padding: 0 2.5%;
 }
 
-#topnav a {
+nav a {
     color: #ffffff;
     text-decoration: none;
     padding: 4px 8px;
@@ -27,11 +31,11 @@
     display: inline-block;
 }
 
-#topnav a:hover {
+nav a:hover {
     background-color: #7f7361;
 }
 
-#topnav a.active {
+nav a.active {
     background-color: #392911;
 }
 
