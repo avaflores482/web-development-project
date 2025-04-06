@@ -1,16 +1,13 @@
 /* styling the nav bar*/
 
-#topnav {
-    background-color: #ffb7c0;
-    border: 2px #392911;
-    text-align: center;
-}
+
   
 
 #topnav ul {
     list-style: none;
     margin: 0;
     padding: 1.5%;
+    background-color: #ffb7c0
     display: flex;
     justify-content: center;
     width: 100%;
