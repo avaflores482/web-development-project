@@ -1,13 +1,10 @@
 /* styling the nav bar*/
 
 #topnav {
-    display: inline;
-    color: ffb7c0;
+    background-color: ffb7c0;
 }
 
-#topnav * {
-    display: inherit;
-}
+
 
 #topnav ul {
     list-style: none;
