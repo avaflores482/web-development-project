@@ -1,19 +1,16 @@
 /* styling the nav bar*/
 
 #topnav {
-    display: inline;
+    display: flex;
+    justify-content: center;
 }
-
-#topnav * {
-    display: inherit;
-}
+  
 
 #topnav ul {
     list-style: none;
     margin: 0;
     background-color: ffb7c0;
     padding: 1.5%;
-    display: inline-block;
     width: 100%;
 }
 
