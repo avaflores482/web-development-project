@@ -49,6 +49,7 @@ nav a.active {
 body {
     font-family:'Courier New', Courier, monospace;
     background-image: url("https://imgur.com/K4Z5lQU.jpg");
+    background-size: auto;
 }
 
 /*styling conatienrs on pages*/
