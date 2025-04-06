@@ -1,17 +1,17 @@
 /* styling the nav bar*/
 
 #topnav {
-    display: flex;
-    justify-content: center;
+    background-color: ffb7c0;
+    border: 2px 392911:
 }
   
 
 #topnav ul {
     list-style: none;
     margin: 0;
-    background-color: ffb7c0;
     padding: 1.5%;
-    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #topnav li {
