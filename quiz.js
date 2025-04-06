@@ -2,29 +2,29 @@ var myquestions = [
     {
         question: "What are cookies?",
         answers: {
-            a: 'A tasty baked good!',
-            b: 'Small pieces of data used to identify your device as you use a network',
-            c: 'Large pices of data that are always written on the hard drive'
+            a: 'A tasty baked good!'\n,
+            b: 'Small pieces of data used to identify your device as you use a network'\n,
+            c: 'Large pices of data that are always written on the hard drive'\n
         },
         correctanswer: 'b'
     },
 
     {
-        question: "What is a common security issue with cookies?",
+        question: "What is a common security issue with cookies?"\n,
         answers: {
-            a: 'Companies track and sell your data through cookies',
-            b: 'Improving usability by knowing device type',
-            c: 'Remembering user preferences'
+            a: 'Companies track and sell your data through cookies'\n,
+            b: 'Improving usability by knowing device type'\n,
+            c: 'Remembering user preferences'\n
         },
         correctanswer: 'a'
     },
     
     {
-        question: "How can you protect yoursef from cookies?",
+        question: "How can you protect yoursef from cookies?"\n,
         answers: {
-            a: "Accept cookies without reading a website's policies first",
-            b: "Read a website's policies before accepting and remove cookies in you broswer settings",
-            c: "Don't keep track of wesbites that have access to your information"
+            a: "Accept cookies without reading a website's policies first"\n,
+            b: "Read a website's policies before accepting and remove cookies in you broswer settings"\n,
+            c: "Don't keep track of wesbites that have access to your information"\n
         },
         correctanswer: 'b'
     }
