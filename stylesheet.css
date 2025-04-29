@@ -134,7 +134,7 @@ th {
 
 #apa-reference {
     padding-left: 36px;
-    text-indent: 36px;
+    text-indent: -36px;
     font-size: 16px;
     color: #392911;
     text-align: left;
