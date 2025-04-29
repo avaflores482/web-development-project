@@ -89,13 +89,15 @@ p {
 
 /*about cookies page styling*/
 
-ul li {
-    color:#392911
+#cookiesuse {
+    color:#392911;
+    text-align: left;
 }
 
-p { 
+#aboutcookies { 
     color:#392911;
     font-size: 16px;
+    text-align: left;
 }
 
 table {
@@ -122,9 +124,10 @@ th {
 
 /*effects of cookies styling*/
 
-p {
+#cookieseffects {
     color:#392911;
-    font-size: 16px
+    font-size: 16px;
+    text-align: left;
 }
 
 /*reference page styling*/
