@@ -134,6 +134,13 @@ p {
     color:#392911;
 }
 
+/*quiz page styling*/
+
+#quiz {
+    text-align: left;
+
+}
+
 #submit {
     display: inline-block;
     margin-top: 16px;
@@ -145,9 +152,15 @@ p {
     text-align: center;
 }
 
-#quiz {
-    text-align: left;
-
+#reset {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 4px 8px;
+    color: #ffffff;
+    Background-color: ffb7c0;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
 }
 
 #results {
