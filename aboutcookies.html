@@ -33,26 +33,76 @@
                 <th>Definition</th>
             </tr>
             <tr>
-                <td>Server</td>
+                <td>Client</td>
+                <td>Any computer hardware or software device that requests access to a service provided by a server.</td>
+            </tr>
+            <tr>
+                <td>Web Server</td>
                 <td>A program or the computer that accepts, approves, and responds to requests made by a browser for documents or services.</td>
             </tr>
             <tr>
                 <td>Web Browser</td>
                 <td>An application program that displays a document from the World Wide Web using the internet after requesting it from a server.</td>
             </tr>
+            <tr>
+                <td>HTTP Protocol</td>
+                <td>The protocol used for fetching resources such as HTML documents. It is used as the foundation for data exchange on the web.</td>
+            </tr>
         </table>
 
         <h2>all about cookies</h2>
         <p id="aboutcookies">A cookie is a small piece of data a server will send to a user's web browser. The browser will store, modify, or create new 
-            cookies and later send them back to the server with requests. </p>
+            cookies and later send them back to the server with requests. Cookies allow web application to store limited amounts of data and remember state 
+            information.</p>
 
-        <h2>main uses of cookies</h2>
-        <ul id="cookiesuse">
-            <li><b>session management:</b> used for things like user sign-in status, shopping cart contents, game scores, or any other session-related 
-                details the server would need to remember</li>
-            <li><b>personalization:</b> user preferences like display language and UI theme like dark or light mode</li>
-            <li><b>tracking:</b> recording and anlayzing user behavior</li>
-        </ul>
+        <h2>how cookies are used</h2>
+        <div id="cookieuse">
+            
+            <p>A server will typically use cookies to figure out if different requests are coming from the same browser or user and subsequently issues a 
+                personalized or generic response as deemed appropriate.<br>
+                A typical user sign-in system would start with a user sending sign-in credentials 
+                to the server using a form submission. If the credentials are correct, the server updates the UI to indicate that the user was signed in and 
+                responds with a cookie containing a session ID that records their sign-in status on the browser. If a user moves to a different page on the 
+                same site, the browser will send the cookie with the session ID along with the request to indicate that it still thinks the user is signed in. 
+                The server then checks the session ID, and if it’s still valid, sends the user to a personalized version of the page they moved to. If the 
+                session ID is no longer valid it will be deleted, and the user will be shown a generic version of the page or they may be asked to sign in again.<br></p>
+            
+            <p><b>The three main uses of cookies:</b></p>
+            <ul>
+                <li><b>session management:</b> used for things like user sign-in status, shopping cart contents, game scores, or any other session-related 
+                    details the server would need to remember</li>
+                <li><b>personalization:</b> user preferences like display language and UI theme like dark or light mode</li>
+                <li><b>tracking:</b> recording and anlayzing user behavior</li>
+            </ul>
+            
+        </div>
+
+        <h2>different types of cookies</h2>
+        
+        <div id="cookietypes">
+            <p>The two main types of cookies are session cookies and persistent cookies.</p>
+            <p><b>Session cookies</b> are only used while navigating a website. They are stored in random access memory but aren’t written to the hard 
+                drive. Once the session ends, the cookies are automatically deleted. The browser defines when the “current session” ends, and some browsers 
+                use session restoring when restarted. This can cause session cookies to last indefinitely. These types of cookies also help make the back 
+                button on your browser work.</p>
+            <p><b>Persistent cookies</b> remain on a computer for an indefinite period of time. Many, however, have expiration dates that dictate when 
+                the data is deleted. Persistent cookies can be used for authentication which tracks whether a user is logged in, as well as login 
+                information, so a user doesn’t have to remember passwords. Persistent cookies are also used for tracking how many times a user visits a 
+                website. Some websites use cookies to track pages and products customers look at in order to suggest new items to them in the future.<br></p>
+            <p>Cookies can be broken down further into first-party cookies and third-party cookies.</p>
+            <p><b>First-party cookies</b> are created by the site you are using and generally safer, as long as you are browsing secure sites that 
+                have not been recently compromised.</p>
+            <p><b>Essential cookies</b> are first-party session cookies that are necessary to run the website you are trying to access.</p>
+            <p><b>Third-party cookies</b> are more dangerous. As you may be able to tell from the name, they are generated by third party websites, usually 
+                linked by ads to the page you are actually browsing. Third-party cookies allow advertisers or analytic companies to track a user’s 
+                browsing history across any website that contains their ads. Thankfully, new data protection laws in most countries and states let a user 
+                decide whether to allow third-party cookies to access their browser.</p>
+            <p><b>Zombie cookies, or supercookies,</b> are another type of third-party, persistent cookie, that are permanently installed on a user’s 
+                computer and are very difficult to remove. They, unlike other types of cookies, can reappear on your computer after they’ve been deleted 
+                from your computer. They can be used by web analytics companies to track user’s browsing histories like other third-party cookies. They 
+                can also be used to ban certain users from a website and prevent them from regaining access to that site.</p>
+
+        </div>
 
     </div>
 </body>
