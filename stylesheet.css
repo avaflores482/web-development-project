@@ -90,7 +90,7 @@ p {
 
 /*about cookies page styling*/
 
-.cookiesuse {
+#cookieuse {
     color:#392911;
     font-size: 16px;
     text-align: left;
@@ -102,7 +102,7 @@ p {
     text-align: left;
 }
 
-.cookietypes {
+#cookietypes {
     color: #392911;
     font-size: 16px;
     text-align: left;
