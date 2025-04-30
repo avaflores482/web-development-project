@@ -146,7 +146,7 @@ th {
 
 }
 
-#submit {
+input[type=submit] {
     display: inline-block;
     margin-top: 16px;
     padding: 4px 8px;
@@ -157,7 +157,7 @@ th {
     text-align: center;
 }
 
-#reset {
+input[type=reset] {
     display: inline-block;
     margin-top: 16px;
     padding: 4px 8px;
