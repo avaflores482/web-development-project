@@ -149,7 +149,8 @@ th {
 #submit {
     display: inline-block;
     margin-top: 16px;
-    padding: 4px 8px;
+    padding: 6px 12px;
+    font-size: 16px;
     color: #ffffff;
     background-color: #463a29;
     text-decoration: none;
@@ -161,7 +162,8 @@ th {
 #reset {
     display: inline-block;
     margin-top: 16px;
-    padding: 4px 8px;
+    padding: 6px 12px;
+    font-size: 16px;
     color: #ffffff;
     Background-color: #ffb7c0;
     text-decoration: none;
