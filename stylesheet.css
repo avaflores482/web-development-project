@@ -92,11 +92,18 @@ p {
 
 #cookiesuse {
     color:#392911;
+    font-size: 16px;
     text-align: left;
 }
 
 #aboutcookies { 
     color:#392911;
+    font-size: 16px;
+    text-align: left;
+}
+
+#cookietype {
+    color: #392911;
     font-size: 16px;
     text-align: left;
 }
