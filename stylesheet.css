@@ -90,23 +90,12 @@ p {
 
 /*about cookies page styling*/
 
-#use {
+#use, #aboutcookies, #type {
     color:#392911;
     font-size: 16px;
     text-align: left;
 }
 
-#aboutcookies { 
-    color:#392911;
-    font-size: 16px;
-    text-align: left;
-}
-
-#type {
-    color: #392911;
-    font-size: 16px;
-    text-align: left;
-}
 
 table {
     width: 100%;
