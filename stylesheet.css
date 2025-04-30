@@ -139,6 +139,17 @@ p {
     text-align: center;
 }
 
+.button hover {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 4px 8px;
+    color: #ffffff;
+    background-color: #7f7361;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
 /*about cookies page styling*/
 
 #use, #aboutcookies, #type {
