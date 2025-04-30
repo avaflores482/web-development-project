@@ -81,7 +81,7 @@ h2 {
     text-align: center;
 }
 
-@media screen and (max-width: 600px); {
+@media screen and (max-width: 600px) {
     .container {
         max-width: 600px;
         margin: 0px auto;
