@@ -7,11 +7,21 @@ body {
     background-color: #ffdcdd;
 }
 
+@media screen and (max-width: 992px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'courier new', courier, monospace;
+        background-image: none;
+        background-color: #ffdcdd;
+    }
+}
+        
 @media screen and (max-width: 600px) {
     body {
         margin: 0;
         padding: 0;
-        font-familu: 'courier new', courier, monospace;
+        font-family: 'courier new', courier, monospace;
         background-image: none;
         background-color: #ffffff;
     }
